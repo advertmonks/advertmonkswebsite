@@ -55,7 +55,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-white mt-20 md:flex md:flex-row flex-col">
+      <footer id="contact" className="bg-white mt-20 md:flex md:flex-row flex-col">
         <div className="mx-auto max-w-screen-xl space-y-2 px-4 py-6 sm:px-6 lg:space-y-4 lg:px-2">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>

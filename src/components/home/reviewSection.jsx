@@ -35,7 +35,7 @@ const ReviewSection = () => {
   ];
 
   return (
-    <div className="bg-gray-100 py-10 px-5 md:px-20 flex gap-6">
+    <div id='reviews' className="bg-gray-100 py-10 px-5 md:px-20 flex gap-6">
       
       <div className="flex flex-col items-center w-1/2">
         <div className="overflow-y-auto h-96 scrollbar-hide">

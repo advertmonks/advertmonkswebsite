@@ -36,7 +36,7 @@ const TeamSection = () => {
   ];
 
   return (
-    <div className="bg-white py-16 px-5 md:px-20">
+    <div id='team' className="bg-white py-16 px-5 md:px-20">
       <div className="text-center">
         <h4 className="text-purple-600 text-lg font-semibold mb-2">The Team</h4>
         <h2 className="text-4xl font-bold mb-8">

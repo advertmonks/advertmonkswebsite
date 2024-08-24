@@ -33,7 +33,7 @@ const InfluencerSection = () => {
 
       
     </section>
-    <div className='flex px-36 gap-20 mt-4'>
+    <div className='flex px-36 gap-20 mt-4 pb-10'>
         <p className='text-4xl'>More than 25,000 world- <br/>class brands trust Influozym</p>
         <div className='flex gap-12'>
         <div className='flex'>
