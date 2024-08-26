@@ -1,7 +1,15 @@
+import HeroSection from "@/components/abouthero";
+import CurvedBackground from "@/components/aboutservices";
+import AboutMeSection from "@/components/aboutabout";
+import ContactPage from "@/components/aboutconnet";
+
 export default function Page() {
     return (
         <>
-            About
+            <HeroSection/>
+            <CurvedBackground/>
+            <AboutMeSection/>
+            <ContactPage/>
         </>
     );
 }
