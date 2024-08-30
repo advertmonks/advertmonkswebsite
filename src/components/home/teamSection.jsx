@@ -36,14 +36,14 @@ const TeamSection = () => {
   ];
 
   return (
-    <div id='team' className="bg-white py-16 px-5 md:px-20">
+    <div id='team' className="bg-white py-16 px-5 md:px-20 ">
       <div className="text-center">
         <h4 className="text-purple-600 text-lg font-semibold mb-2">The Team</h4>
         <h2 className="text-4xl font-bold mb-8">
           Meet the brilliant minds behind our successful campaigns
         </h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20">
         {teamMembers.map((member, index) => (
           <div key={index} className="text-center">
             <Image

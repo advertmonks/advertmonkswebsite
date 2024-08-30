@@ -3,7 +3,7 @@ import React from 'react';
 
 const WhyNubiSection = () => {
   return (
-    <div className="bg-gray-50 py-16 px-5 md:px-20 relative bg-gradient-to-r from-purple-400 to-purple-600 mx-5 rounded-3xl">
+    <div  className="bg-gray-50 py-16 px-5 md:px-20 relative bg-gradient-to-r from-purple-400 to-purple-600 mx-5 rounded-3xl">
       <div className="absolute top-5 left-1/2 transform -translate-x-1/2 -translate-y-10 bg-white px-4 py-2 rounded-full shadow-md">
         <span className="text-purple-600 font-semibold">Why Nubi</span>
       </div>

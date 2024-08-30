@@ -10,11 +10,11 @@ const Stat = ({ value, label }) => (
 
 const AboutMeSection = () => {
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div  className="container mx-auto px-4 py-16">
       <div className="text-purple-600 mb-2">About me</div>
       
       <h2 className="text-4xl font-bold mb-6 max-w-3xl">
-        I've been helping businesses improve their SEO for over 5 years
+        I&apos;ve been helping businesses improve their SEO for over 5 years
       </h2>
       
       <div className="flex flex-wrap items-center">

@@ -35,14 +35,15 @@ const ReviewSection = () => {
   ];
 
   return (
-    <div id='reviews' className="bg-gray-100 py-10 px-5 md:px-20 flex gap-6">
+    <div id='reviews' className="bg-gray-100 py-10 px-2 md:px-10 flex gap-10 h-screen ">
       
-      <div className="flex flex-col items-center w-1/2">
-        <div className="overflow-y-auto h-96 scrollbar-hide">
-          {reviews.map((review) => (
+      <div className="flex flex-col items-center w-2/3">
+        <div className="overflow-y-auto h-auto scrollbar-hide">
+          {reviews.map((review,index) => (
             <div
               key={review.id}
-              className="bg-white p-6 mb-6 shadow-lg rounded-lg text-center flex"
+              // className="bg-white p-6 mb-6 shadow-lg rounded-lg text-center flex"
+              className={`rounded-lg bg-gray-50  p-6 mb-6 drop-shadow-${index % 2 === 0 ? "2xl" : "xl"}   flex gap-6 ${index % 2 === 1 ? "md:ml-16" : ""}`}
             >
               <Image
                 src={review.image}
@@ -75,7 +76,7 @@ const ReviewSection = () => {
                     height={40}/>
             </div> */}
       </div>
-      <div className='mt-16'>
+      <div className='mt-16  flex flex-col  justify-center'>
       <h2 className="text-4xl font-bold text-center mb-8">
         Find The Right Influencer For Your Business
       </h2>

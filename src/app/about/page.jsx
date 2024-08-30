@@ -7,7 +7,9 @@ export default function Page() {
     return (
         <>
             <HeroSection/>
+            <section id='services'>
             <CurvedBackground/>
+            </section>
             <AboutMeSection/>
             <ContactPage/>
         </>

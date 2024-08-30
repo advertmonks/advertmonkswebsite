@@ -9,13 +9,23 @@ import Header from "@/components/header";
 export default function Home() {
   return (
    <>
-   <Header/>
+   {/* <Header/> */}
+   <section>
    <InfluencerSection/>
+   </section>
+   <section>
    <ReviewSection/>
-   <WhyNubiSection/>
+   </section>
+   <section  className="pt-16">
+   <WhyNubiSection />
+   </section>
+   <section>
    <TeamSection/>
+   </section>
+   <section>
    <QuoteForm/>
-   <Footer/>
+   </section>
+   {/* <Footer/> */}
    </>
   );
 }

@@ -7,7 +7,7 @@ export default function ContactPage() {
         {/* Left Side - Text Content */}
         <div className="text-white md:w-1/2 p-6">
           <h1 className="text-3xl font-bold mb-4">
-            Take the first step towards unlocking your brand's potential
+            Take the first step towards unlocking your brand&apos;s potential
           </h1>
           <p className="text-lg mb-6">
             Non fermentum dictum donec ut. In mi feugiat ac condimentum in cras

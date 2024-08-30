@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div className="bg-purple-500 min-h-screen flex items-center justify-center">
       <div className="text-center px-4">
         <div className="inline-block bg-purple-400 rounded-full px-4 py-2 mb-6">
-          <p className="text-white text-sm">👋 Hey there! I'm Albert</p>
+          <p className="text-white text-sm">👋 Hey there! I&apos;m Albert</p>
         </div>
         
         <h1 className="text-white text-4xl md:text-5xl font-bold mb-4">

@@ -12,7 +12,7 @@ export default function Header() {
           <div className="flex justify-center gap-10  items-center ">
             <div className="flex gap-8 text-xl">
               <Link href="/about">About</Link>
-              <Link href="/">Services</Link>
+              <Link href="/about#services">Services</Link>
               <Link href="/#reviews">Reviews</Link>
               <Link href="/#team">Team</Link>
               <Link href="/#contact">Contact</Link>
