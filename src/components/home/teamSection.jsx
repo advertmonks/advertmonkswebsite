@@ -6,32 +6,17 @@ const TeamSection = () => {
     {
       name: 'David Daily',
       role: 'Head of Production',
-      image: '/images/david.png',
+      image: '/ankush.png',
     },
     {
       name: 'John Stewart',
       role: 'Creative Director',
-      image: '/images/john.png',
+      image: '/pixelcut-export.png',
     },
     {
       name: 'Taylor Johnson',
       role: 'Head of Client Services',
-      image: '/images/taylor.png',
-    },
-    {
-      name: 'Walter Mountain',
-      role: 'Project Manager',
-      image: '/images/walter.png',
-    },
-    {
-      name: 'Allen Chang',
-      role: 'Creative Director',
-      image: '/images/allen.png',
-    },
-    {
-      name: 'Rick James',
-      role: 'Development Lead',
-      image: '/images/rick.png',
+      image: '/Untitled design (3).png',
     },
   ];
 
@@ -49,8 +34,8 @@ const TeamSection = () => {
             <Image
               src={member.image}
               alt={member.name}
-              width={40}
-              height={40}
+              width={50}
+              height={50}
               className="w-24 h-24 rounded-full mx-auto mb-4"
             />
             <h3 className="text-xl font-bold">{member.name}</h3>

@@ -1,8 +1,15 @@
 import Image from 'next/image';
 import { Button } from '../ui/button';
+import AvatarCircles from "@/components/magicui/avatar-circles";
 // import styles from './InfluencerSection.module.css';
 
 const InfluencerSection = () => {
+  const avatarUrls = [
+    "https://avatars.githubusercontent.com/u/16860528",
+    "https://avatars.githubusercontent.com/u/20110627",
+    "https://avatars.githubusercontent.com/u/106103625",
+    // "https://avatars.githubusercontent.com/u/59228569",
+  ];
   return (
     <>
     <div>
@@ -18,16 +25,17 @@ const InfluencerSection = () => {
 
       <div className='flex w-2/4 relative gap-3'>
         <div className='flex-col mt-4 relative'>
-          <Image className='rounded-tl-3xl mb-4' src="/Akshay.png" alt="Influencer 1" width={250} height={250} />
+          <Image className='rounded-tl-3xl mb-4 bg-gradient-to-r from-purple-500 to-purple-600' src="/av1.png" alt="Influencer 1" width={250} height={250} />
           
         
-          <Image src="/Akshay.png" className='rounded-bl-3xl' alt="Influencer 2" width={250} height={250} />
+          <Image src="/av2.png" className='rounded-bl-3xl bg-gradient-to-r from-purple-500 to-purple-600' alt="Influencer 2" width={250} height={250} />
           <p className='absolute bottom-4 -left-10 bg-white rounded-e-full rounded-s-full px-3 py-1 text-sm'>4126+ <br/> <span className='text-xs'>Popular Influencer</span></p>
         </div>
         <div className='flex-col relative'>
-          <Image className='mb-4' src="/Akshay.png" alt="Influencer 3" width={250} height={250} />
-          <p className='absolute top-44 -right-10 bg-white rounded-e-full rounded-s-full px-3 py-1 text-sm'>4126+ <br/> <span className='text-xs'>Popular Influencer</span></p>
-          <Image className='rounded-br-3xl' src="/Akshay.png" alt="Influencer 4" width={250} height={250} />
+          <Image className='rounded-tr-3xl mb-4 bg-gradient-to-r from-purple-500 to-purple-600' src="/Av3.png" alt="Influencer 3" width={250} height={250} />
+          <AvatarCircles className='absolute top-48 -right-10  rounded-e-full rounded-s-full px-3 py-1 text-sm' numPeople={99} avatarUrls={avatarUrls} />
+          {/* <p className='absolute top-44 -right-10 bg-white rounded-e-full rounded-s-full px-3 py-1 text-sm'>4126+ <br/> <span className='text-xs'>Popular Influencer</span></p> */}
+          <Image className='rounded-br-3xl bg-gradient-to-r from-purple-500 to-purple-600' src="/av4.png" alt="Influencer 4" width={250} height={250} />
         </div>
       </div>
 
