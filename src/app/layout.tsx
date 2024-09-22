@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import { ChakraProvider } from '@chakra-ui/react'
+import EmailFunction from "@/context/EmailContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,11 +21,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+      <ChakraProvider>
         <Header/>
+        <EmailFunction>
       <main className="relative flex flex-col min-h-screen">
           <div className="flex-grow flex-1">{children}</div>
         </main>
+        </EmailFunction>
         <Footer/>
+        </ChakraProvider>
       </body>
     </html>
   );

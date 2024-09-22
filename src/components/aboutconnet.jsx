@@ -1,8 +1,55 @@
-// import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
-export default function ContactPage() {
+"use client"
+import { useState } from 'react';
+import { Button } from '@/components/ui/button';
+// import { sendContactForm } from "@/lib/api";
+
+const initValues = { company: "", email: "", url: "",};
+
+const initState = { isLoading: false, error: "", values: initValues };
+
+const ContactPage = () =>{
+  // const [company, setcompany] = useState('');
+  // const [email, setemail] = useState('');
+  // const [url, seturl] = useState('');
+
+  const [state, setState] = useState(initState);
+
+  const { values, isLoading, error } = state;
+
+  const handleChange = ({ target }) =>
+    setState((prev) => ({
+      ...prev,
+      values: {
+        ...prev.values,
+        [target.name]: target.value,
+      },
+    }));
+
+
+  // const onSubmit = async () => {
+  //   setState((prev) => ({
+  //     ...prev,
+  //     isLoading: true,
+  //   }));
+  //  console.log({values});
+   
+  //   try {
+  //     await sendContactForm(values);
+      
+  //     setState(initState);
+  //   } catch (error) {
+  //     setState((prev) => ({
+  //       ...prev,
+  //       isLoading: false,
+  //       error: error.message,
+  //     }));
+     
+  //   }
+  // };
+
   return (
-    // <MaxWidthWrapper>
+    
       <div className="flex flex-col md:flex-row items-center justify-between bg-purple-500 p-8 rounded-lg shadow-lg">
         {/* Left Side - Text Content */}
         <div className="text-white md:w-1/2 p-6">
@@ -22,7 +69,7 @@ export default function ContactPage() {
             Please fill in the information below
           </h2>
 
-          <form action="#" className="space-y-4">
+          <form  className="space-y-4">
             <div>
               <label htmlFor="company-name" className="sr-only">
                 Company Name
@@ -33,6 +80,9 @@ export default function ContactPage() {
                 className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
                 placeholder="Your company name"
                 required
+                name="company"
+                value={values.name}
+          onChange={handleChange}
               />
             </div>
 
@@ -46,7 +96,10 @@ export default function ContactPage() {
                 className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
                 placeholder="youremail@gmail.com"
                 required
-              />
+                name="email"
+                value={values.name}
+          onChange={handleChange}
+            />
             </div>
 
             <div>
@@ -59,12 +112,15 @@ export default function ContactPage() {
                 className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
                 placeholder="yourwebsite.com"
                 required
+                name="url"
+                value={values.name}
+          onChange={handleChange}
               />
             </div>
 
             <div>
               <button
-                type="submit"
+              // onClick={onSubmit}
                 className="w-full rounded-lg bg-gray-800 px-5 py-3 text-sm font-medium text-white shadow-md hover:bg-gray-900"
               >
                 Get a quote
@@ -73,6 +129,8 @@ export default function ContactPage() {
           </form>
         </div>
       </div>
-    // </MaxWidthWrapper>
+  
   );
 }
+
+export default ContactPage;
