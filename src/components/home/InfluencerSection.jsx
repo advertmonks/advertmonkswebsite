@@ -17,7 +17,7 @@ const InfluencerSection = () => {
       <div className="w-2/3 text-left ml-10">
         <h1 className="text-5xl font-bold mb-5 w-3/4 ">The Ladder to <br/> Stepping Up Your Digital Presence</h1>
         <p className='text-lg font-light '>
-        You can't buy engagement, you have to build it. And that's what Advert Monks excels in. With expertly crafted stories to display your business like a trophy, we help take care of your marketing needs so you can focus on the innovation part. How do we do it? Let's walk through our list of services below!
+        You can&apos;t buy engagement, you have to build it. And that&apos;s what Advert Monks excels in. With expertly crafted stories to display your business like a trophy, we help take care of your marketing needs so you can focus on the innovation part. How do we do it? Let&apos;s walk through our list of services below!
         </p>
         {/* <button >Discover More</button> */}
         <Button>Discover More</Button>

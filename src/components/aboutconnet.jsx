@@ -64,7 +64,7 @@ const ContactPage = () =>{
         {/* Right Side - Form */}
         <div className="bg-white p-8 rounded-lg shadow-lg md:w-1/2">
           <h2 className="text-gray-800 text-lg font-semibold mb-6">
-          Drop us an email and let's start establishing your presence today!
+          Drop us an email and let&apos;s start establishing your presence today!
           </h2>
 
           <form  className="space-y-4">

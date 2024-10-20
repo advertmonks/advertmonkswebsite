@@ -13,7 +13,7 @@ const HeroSection = () => {
         </h1>
         
         <p className="text-purple-200 mb-8 max-w-2xl mx-auto">
-        Our team understands and listens to your needs. Whatever your business goals or target industry, we have something for everyone. So whether you need the full suite or just a specific service,  browse our list, pick what you like and let's get building your digital presence.
+        Our team understands and listens to your needs. Whatever your business goals or target industry, we have something for everyone. So whether you need the full suite or just a specific service,  browse our list, pick what you like and let&apos;s get building your digital presence.
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">

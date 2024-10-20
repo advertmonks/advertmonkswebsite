@@ -21,11 +21,11 @@ const AboutMeSection = () => {
           <div className="h-2 w-2 bg-green-500 rounded-full mb-6"></div>
           
           <p className="text-gray-600 mb-6">
-          With an increasing list of businesses that Advert Monks helps make their mark every day, we don't just bring in our work, we make sure we listen. 
+          With an increasing list of businesses that Advert Monks helps make their mark every day, we don&apos;t just bring in our work, we make sure we listen.
           </p>
           
           <p className="text-gray-600 mb-8">
-          That's why we bring in our ever-growing experience to do your business justice, making sure it grows with us.Vestibulum fermentum mi consectetur pretium viverra urna.
+          That&apos;s why we bring in our ever-growing experience to do your business justice, making sure it grows with us.
           </p>
           
           <div className="grid grid-cols-2 gap-4">

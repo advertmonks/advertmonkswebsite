@@ -81,7 +81,7 @@ const ReviewSection = () => {
       Hit Your Marketing Goals With Advert Monks
       </h2>
       <p className="text-center mb-8 text-gray-500 max-w-xl mx-auto">
-      Our team makes sure there's a little something for every business. Whether it's SEO and content writing services for an organic presence, advertising your business on social media, or creating ads best optimised for social media, Advert Monks makes sure you get what you want.
+      Our team makes sure there&apos;s a little something for every business. Whether it&apos;s SEO and content writing services for an organic presence, advertising your business on social media, or creating ads best optimised for social media, Advert Monks makes sure you get what you want.
       </p>
       <button className="bg-purple-600 text-white px-6 py-2 rounded-lg mx-auto block mb-8">
         Discover More
