@@ -54,19 +54,17 @@ const ContactPage = () =>{
         {/* Left Side - Text Content */}
         <div className="text-white md:w-1/2 p-6">
           <h1 className="text-3xl font-bold mb-4">
-            Take the first step towards unlocking your brand&apos;s potential
+          Ready to Leave Your Mark?
           </h1>
           <p className="text-lg mb-6">
-            Non fermentum dictum donec ut. In mi feugiat ac condimentum in cras
-            maecenas maecenas bibendum. Turpis amet velit et integer proin
-            pellentesque massa.
+          Still got some doubts? Let us take care of it.
           </p>
         </div>
 
         {/* Right Side - Form */}
         <div className="bg-white p-8 rounded-lg shadow-lg md:w-1/2">
           <h2 className="text-gray-800 text-lg font-semibold mb-6">
-            Please fill in the information below
+          Drop us an email and let's start establishing your presence today!
           </h2>
 
           <form  className="space-y-4">
@@ -123,7 +121,7 @@ const ContactPage = () =>{
               // onClick={onSubmit}
                 className="w-full rounded-lg bg-gray-800 px-5 py-3 text-sm font-medium text-white shadow-md hover:bg-gray-900"
               >
-                Get a quote
+                Let&apos;s Connect!
               </button>
             </div>
           </form>

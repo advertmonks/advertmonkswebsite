@@ -11,10 +11,9 @@ const Stat = ({ value, label }) => (
 const AboutMeSection = () => {
   return (
     <div  className="container mx-auto px-4 py-16">
-      <div className="text-purple-600 mb-2">About me</div>
       
       <h2 className="text-4xl font-bold mb-6 max-w-3xl">
-        I&apos;ve been helping businesses improve their SEO for over 5 years
+      How We Do It
       </h2>
       
       <div className="flex flex-wrap items-center">
@@ -22,11 +21,11 @@ const AboutMeSection = () => {
           <div className="h-2 w-2 bg-green-500 rounded-full mb-6"></div>
           
           <p className="text-gray-600 mb-6">
-            Pellentesque tempus nibh et est elementum id consequat eu lectus. Consectetur urna id faucibus at feugiat praesent. Volutpat felis ipsum orci vitae pharetra.
+          With an increasing list of businesses that Advert Monks helps make their mark every day, we don't just bring in our work, we make sure we listen. 
           </p>
           
           <p className="text-gray-600 mb-8">
-            Vestibulum fermentum mi consectetur pretium viverra urna.
+          That's why we bring in our ever-growing experience to do your business justice, making sure it grows with us.Vestibulum fermentum mi consectetur pretium viverra urna.
           </p>
           
           <div className="grid grid-cols-2 gap-4">

@@ -78,11 +78,10 @@ const ReviewSection = () => {
       </div>
       <div className='mt-16  flex flex-col  justify-center'>
       <h2 className="text-4xl font-bold text-center mb-8">
-        Find The Right Influencer For Your Business
+      Hit Your Marketing Goals With Advert Monks
       </h2>
       <p className="text-center mb-8 text-gray-500 max-w-xl mx-auto">
-        Taciti dui nobis lobortis donec consectetur vel felis efficitur. 
-        Accumsan molestie habitasse litora ornare a turpis sed faucibus fermentum.
+      Our team makes sure there's a little something for every business. Whether it's SEO and content writing services for an organic presence, advertising your business on social media, or creating ads best optimised for social media, Advert Monks makes sure you get what you want.
       </p>
       <button className="bg-purple-600 text-white px-6 py-2 rounded-lg mx-auto block mb-8">
         Discover More

@@ -41,18 +41,23 @@ const ServicesSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <ServiceCard
           icon="🔍"
-          title="SEO Audit"
-          description="Quis quis est interdum arcu. Quam egestas nibh viverra dictum ultrices."
+          title="SEO Curation"
+          description="When people don't search further than Google's first page, Advert Monks ensures traffic on your website by curating its design and content with trending keywords to improve ranking across search engines."
         />
         <ServiceCard
           icon="💎"
-          title="Keyword Research"
-          description="Dictumst nibh quis eget eleifend conse ctetur. Sapien vitae maecenas massa in."
+          title="Social Media Strategizing"
+          description="Our team understands the nuances of each media platform, what makes them run, and puts it into a strategy for your business. Because nothing is stronger than a recommendation from a trusted friend."
         />
         <ServiceCard
           icon="🔗"
-          title="Link Building"
-          description="Et mauris pharetra consectetur sem et sit. Sit posuere tellus mattis sit."
+          title="Content Creation"
+          description="Good content builds relationships that bring in revenue. That's why Advert Monks helps you write content that takes your business' legacy and does its story justice, in a way your customers appreciate."
+        />
+        <ServiceCard
+          icon="🔗"
+          title="Social Media Analytics"
+          description="Simply putting up your content on various platforms is one step. Another is to understand the feedback data. That's why our team carefully analyses all your metrics to mould your content into reaching your target audience."
         />
       </div>
     </div>

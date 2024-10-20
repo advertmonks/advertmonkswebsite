@@ -15,9 +15,9 @@ const InfluencerSection = () => {
     <div>
     <section className="flex p-10 w-screen gap-16 align-middle items-center">
       <div className="w-2/3 text-left ml-10">
-        <h1 className="text-5xl font-bold mb-5 w-3/4 ">Find The Right <br/> Influencer For Your Business</h1>
+        <h1 className="text-5xl font-bold mb-5 w-3/4 ">The Ladder to <br/> Stepping Up Your Digital Presence</h1>
         <p className='text-lg font-light '>
-          Taciti dui mollis lobortis donec consectetur vel felis efficitur. Acutuman molestie habitasse libero ornare a turpis sed frictious fermentum.
+        You can't buy engagement, you have to build it. And that's what Advert Monks excels in. With expertly crafted stories to display your business like a trophy, we help take care of your marketing needs so you can focus on the innovation part. How do we do it? Let's walk through our list of services below!
         </p>
         {/* <button >Discover More</button> */}
         <Button>Discover More</Button>
@@ -42,7 +42,7 @@ const InfluencerSection = () => {
       
     </section>
     <div className='flex px-36 gap-20 mt-4 pb-10'>
-        <p className='text-4xl'>More than 25,000 world- <br/>class brands trust Influozym</p>
+        <p className='text-4xl'>Not Satisfied? <br/>Take Their Word for It!</p>
         <div className='flex gap-12'>
         <div className='flex'>
 
