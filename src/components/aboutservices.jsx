@@ -29,7 +29,7 @@ const ServicesSection = () => {
         </div>
         <div className="w-full lg:w-1/3">
           <Image
-            src="/avatar.png"
+            src="/callus.webp"
             alt="Avatar"
             width={200}
             height={200}
