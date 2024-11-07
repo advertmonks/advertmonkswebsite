@@ -46,25 +46,37 @@ const InfluencerSection = () => {
         <div className='flex gap-12'>
         <div className='flex'>
 
-          <Image src="/images/logo1.png" alt="" width={20} height={40} />
-          <p>Logopisum</p>
+          <Image src="/Daily Dose Cafe.png" alt="" width={200} height={100} />
+          {/* <p>Logopisum</p> */}
         </div>
         <div className='flex'>
 
-          <Image src="/images/logo1.png" alt="" width={20} height={40}/>
-          <p>Logopisum</p>
+          <Image src="/IMG-20240506-WA0005-removebg-preview.png" alt="" width={200} height={100}/>
+          {/* <p>Logopisum</p> */}
         </div>
         <div className='flex'>
 
-          <Image src="/images/logo1.png" alt="" width={20} height={40}/>
-          <p>Logopisum</p>
+          <Image src="/m cyber academy logo.png" alt="" width={200} height={100}/>
+          {/* <p>Logopisum</p> */}
         </div>
         <div className='flex'>
 
-          <Image src="/images/logo1.png" alt="" width={20} height={40}/>
-          <p>Logopisum</p>
+          <Image src="/Maharanacabs.jpg" alt="" width={200} height={100}/>
+          {/* <p>Logopisum</p> */}
         </div>
          
+        <div className='flex'>
+
+          <Image src="/Rawat Catering.png" alt="" width={200} height={100}/>
+          {/* <p>Logopisum</p> */}
+        </div>
+
+        <div className='flex'>
+
+          <Image src="/Storybags.png" alt="" width={200} height={100}/>
+          {/* <p>Logopisum</p> */}
+        </div>
+
         </div>
       </div>
     </div>
