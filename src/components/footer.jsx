@@ -60,7 +60,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
               <div className="text-teal-600 flex justify-center md:justify-normal">
-                <Image  src="/logo.png" alt="Logo" width="220" height="180" />
+                <Image  src="/admonk.png" alt="Logo" width="130" height="80" />
               </div>
 
               <ul className="mt-8 flex gap-6 justify-center md:justify-normal mb-4 md:mb-0">
