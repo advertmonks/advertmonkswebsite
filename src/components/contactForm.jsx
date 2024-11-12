@@ -9,7 +9,6 @@ import {
     Input,
     Text,
     Textarea,
-    useToast,
   } from "@chakra-ui/react";
   import { useState } from "react";
   // import { sendContactForm } from "../lib/api";

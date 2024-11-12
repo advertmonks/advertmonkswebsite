@@ -35,7 +35,7 @@ const AboutMeSection = () => {
           </div>
         </div>
 
-        <div className="w-full lg:w-1/2 relative flex items-center justify-center">
+        <div className="w-full p-2 m-4 md:p-0 md:m-0 lg:w-1/2 relative flex items-center justify-center">
           <div className="absolute inset-0 bg-purple-500 transform -skew-x-6 z-0"></div>
           <Image
             src="/about.webp"

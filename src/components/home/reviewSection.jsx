@@ -5,28 +5,28 @@ const ReviewSection = () => {
   const reviews = [
     {
       id: 1,
-      image: '/images/reviewer1.jpg',
+      image: '/about.webp',
       name: 'John Doe',
       role: 'Popular Influencer',
       content: 'kdsjfkl jlslfjlfl sdf kjflflfjs fs lfj lj  fjfsdjflsjfslfj ljf jf lfj sldjfldsj fdls fjlf mfjsldfjljfldjc df f f dsfd ds ',
     },
     {
       id: 2,
-      image: '/images/reviewer2.jpg',
+      image: '/about.webp',
       name: 'John Doe',
       role: 'Popular Influencer',
       content: 'kdsjfkl jlslfjlfl sdf kjflflfjs fs lfj lj  fjfsdjflsjfslfj ljf jf lfj sldjfldsj fdls fjlf mfjsldfjljfldjc df f f dsfd ds ',
     },
     {
       id: 3,
-      image: '/images/reviewer2.jpg',
+      image: '/about.webp',
       name: 'John Doe',
       role: 'Popular Influencer',
       content: 'kdsjfkl jlslfjlfl sdf kjflflfjs fs lfj lj  fjfsdjflsjfslfj ljf jf lfj sldjfldsj fdls fjlf mfjsldfjljfldjc df f f dsfd ds ',
     },
     {
       id: 4,
-      image: '/images/reviewer2.jpg',
+      image: '/about.webp',
       name: 'John Doe',
       role: 'Popular Influencer',
       content: 'kdsjfkl jlslfjlfl sdf kjflflfjs fs lfj lj  fjfsdjflsjfslfj ljf jf lfj sldjfldsj fdls fjlf mfjsldfjljfldjc df f f dsfd ds ',
@@ -35,15 +35,15 @@ const ReviewSection = () => {
   ];
 
   return (
-    <div id='reviews' className="bg-gray-100 py-10 px-4 md:px-10 flex flex-col md:flex-row gap-10 h-auto md:h-screen ">
+    <div id='reviews' className="bg-gray-100 py-10 px-4 md:px-10 flex flex-col md:flex-row md:justify-around gap-10 h-auto md:h-[40rem] ">
       
       {/* Reviews Section */}
-      <div className="flex flex-col items-center w-full md:w-2/3">
+      <div className="flex flex-col items-center w-full px-3 md:px-0 md:w-2/4">
         <div className="overflow-y-auto h-auto scrollbar-hide">
           {reviews.map((review, index) => (
             <div
               key={review.id}
-              className={`rounded-lg bg-gray-50 p-6 mb-6 shadow-lg flex flex-col md:flex-row gap-4 ${index % 2 === 1 ? "md:ml-16" : ""}`}
+              className={`rounded-lg bg-gray-50 p-6 md:p-8 mb-6 shadow-lg flex flex-col md:flex-row gap-4 md:gap-8 ${index % 2 === 1 ? "md:ml-16" : ""}`}
             >
               <Image
                 src={review.image}

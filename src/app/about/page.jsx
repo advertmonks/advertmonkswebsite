@@ -14,7 +14,7 @@ export default function Page() {
             </section>
             <AboutMeSection/>
             <ContactPage/>
-            <ContactForm/>
+            {/* <ContactForm/> */}
            
         </>
     );

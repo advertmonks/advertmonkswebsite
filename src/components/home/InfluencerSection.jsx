@@ -12,7 +12,7 @@ const InfluencerSection = () => {
   return (
     <>
       <div>
-        <section className="flex flex-col md:flex-row p-6 md:p-10 w-full gap-8 md:gap-16 items-center">
+        <section className="flex flex-col md:flex-row p-6 md:px-10 pt-28 w-full gap-8 md:gap-16 items-center">
           {/* Text Section */}
           <div className="w-full md:w-2/3 text-left md:ml-10">
             <h1 className="text-3xl md:text-5xl font-bold mb-4 md:mb-5 w-full md:w-3/4">
@@ -79,55 +79,56 @@ const InfluencerSection = () => {
         </section>
 
         {/* Logos Section */}
-        <div className="flex flex-col md:flex-row px-6 md:px-36 gap-4 md:gap-20 mt-4 pb-10">
-      <p className="text-2xl md:text-4xl mb-4 md:mb-0">
+        <div className="flex flex-col md:flex-row px-6 md:px-20 gap-4 md:gap-24 mt-4 pb-10">
+      <p className="text-2xl md:text-4xl mb-4 md:mb-0 flex items-center">
         Not Satisfied? <br />
         Take Their Word for It!
       </p>
       
-      <div className="flex overflow-x-auto md:flex-wrap gap-4 md:gap-12">
+      <div className="flex overflow-x-auto md:flex-wrap px-10 md:px-0 gap-20 md:gap-12">
         {/* Wrapping each logo in a container with consistent width for carousel effect */}
-        <div className="flex-shrink-0 w-40 md:w-auto flex items-center">
+        <div className="flex-shrink-0 w-auto flex items-center">
           <Image
             src="/Daily Dose Cafe.png"
             alt="Daily Dose Cafe"
-            width={120}
+            width={60}
             height={60}
             priority
           />
         </div>
         
-        <div className="flex-shrink-0 w-40 md:w-auto flex items-center">
+        <div className="flex-shrink-0 w-auto flex items-center">
           <Image
             src="/IMG-20240506-WA0005-removebg-preview.png"
             alt="Client Logo"
-            width={120}
+            width={100}
             height={60}
             priority
           />
         </div>
         
-        <div className="flex-shrink-0 w-40 md:w-auto flex items-center">
+        <div className="flex-shrink-0 w-auto flex items-center">
           <Image
             src="/m cyber academy logo.png"
             alt="Cyber Academy"
-            width={120}
+            width={60}
             height={60}
+            
             priority
           />
         </div>
         
-        <div className="flex-shrink-0 w-40 md:w-auto flex items-center">
+        <div className="flex-shrink-0 w-auto flex items-center">
           <Image
             src="/Maharanacabs.jpg"
             alt="Maharana Cabs"
-            width={120}
+            width={160}
             height={60}
             priority
           />
         </div>
         
-        <div className="flex-shrink-0 w-40 md:w-auto flex items-center">
+        <div className="flex-shrink-0 w-auto flex items-center">
           <Image
             src="/Rawat Catering.png"
             alt="Rawat Catering"
@@ -137,11 +138,11 @@ const InfluencerSection = () => {
           />
         </div>
         
-        <div className="flex-shrink-0 w-40 md:w-auto flex items-center">
+        <div className="flex-shrink-0 w-auto flex items-center">
           <Image
             src="/Storybags.png"
             alt="Storybags"
-            width={120}
+            width={140}
             height={60}
             priority
           />

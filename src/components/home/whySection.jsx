@@ -5,7 +5,7 @@ const WhyNubiSection = () => {
   return (
     <div className="bg-gray-50 py-16 px-5 md:px-20 relative bg-gradient-to-r from-purple-400 to-purple-600 mx-5 rounded-3xl">
       <div className="absolute top-5 left-1/2 transform -translate-x-1/2 -translate-y-10 bg-white px-4 py-2 rounded-full shadow-md">
-        <span className="text-purple-600 font-semibold">Why Nubi</span>
+        <span className="text-purple-600 font-semibold">Why AdvertMonk</span>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
         <div className="relative">
@@ -20,10 +20,10 @@ const WhyNubiSection = () => {
           </div>
         </div>
         <div className="max-w-lg ">
-          <h2 className="text-4xl font-bold mb-4  text-white">
+          <h2 className="text-4xl text-center md:text-left font-bold mb-4  text-white">
             We’re the best award-winning agency
           </h2>
-          <p className="text-slate-100 opacity-70 mb-6">
+          <p className="text-slate-100 text-center md:text-left  opacity-70 mb-6">
             Faucibus diam donec diam viverra. Semper phasellus in est malesuada
             lectus. Aliquam purus.
           </p>
