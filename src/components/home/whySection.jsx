@@ -21,24 +21,23 @@ const WhyNubiSection = () => {
         </div>
         <div className="max-w-lg ">
           <h2 className="text-4xl text-center md:text-left font-bold mb-4  text-white">
-            We’re the best award-winning agency
+            We Understand What Drives You
           </h2>
           <p className="text-slate-100 text-center md:text-left  opacity-70 mb-6">
-            Faucibus diam donec diam viverra. Semper phasellus in est malesuada
-            lectus. Aliquam purus.
+          With so many moving parts in a business, marketing may not be on top of your list. But a good marketing strategy is the cherry atop the cake. That's where Advert Monks gives you
           </p>
           <ul className="space-y-3">
             <li className="flex items-center text-lg text-white">
               <span className="text-green-500 font-bold text-xl mr-2">✔</span>
-              We provide personalized, data-driven strategies
+              Growth strategies to establish your digital presence
             </li>
             <li className="flex items-center text-lg text-white">
               <span className="text-green-500 font-bold text-xl mr-2">✔</span>
-              Our team comprises industry-leading experts
+              Interactive content to establish consumer trust
             </li>
             <li className="flex items-center text-lg text-white">
               <span className="text-green-500 font-bold text-xl mr-2">✔</span>
-              We have a proven track record of success
+              Social media management and automation to serve your goals
             </li>
           </ul>
         </div>
