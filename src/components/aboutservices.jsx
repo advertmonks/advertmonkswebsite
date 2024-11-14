@@ -17,11 +17,10 @@ const ServicesSection = () => {
       <div className="flex flex-wrap items-center mb-12">
         <div className="w-full lg:w-2/3 pr-0 lg:pr-8 mb-8 lg:mb-0">
           <h2 className="text-4xl font-bold mb-6">
-            I offer a wide range of services to help you achieve your SEO goals
+          What We Offer
           </h2>
           <p className="text-gray-600 mb-6">
-            I have the skills and knowledge to get the job done in no time.
-            Check out my services page to learn more about what I can offer.
+          Our team understands and listens to your needs. Whatever your business goals or target industry, we have something for everyone. So whether you need the full suite or just a specific service, browse our list, pick what you like and let's get building your digital presence.
           </p>
           <button className="bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-800 transition duration-300">
             Learn More
@@ -39,6 +38,11 @@ const ServicesSection = () => {
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <ServiceCard
+          icon="🔗"
+          title="Brand Building"
+          description="Your brand is the voice of your product. At Advert Monks, our growing experience in building brand images ensures your social media account shows your brand’s values that calls out to your customers."
+        />
         <ServiceCard
           icon="🔍"
           title="SEO Curation"
@@ -58,6 +62,11 @@ const ServicesSection = () => {
           icon="🔗"
           title="Social Media Analytics"
           description="Simply putting up your content on various platforms is one step. Another is to understand the feedback data. That's why our team carefully analyses all your metrics to mould your content into reaching your target audience."
+        />
+        <ServiceCard
+          icon="🔗"
+          title="Video Production"
+          description="If a picture can speak a thousand words, imagine what a video can do. Understanding and using this, our team helps you create online videos for your business that attracts customers to make them stay."
         />
       </div>
     </div>

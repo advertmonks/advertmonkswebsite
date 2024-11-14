@@ -6,16 +6,16 @@ const ReviewSection = () => {
     {
       id: 1,
       image: '/about.webp',
-      name: 'John Doe',
+      name: 'Path2Parenting',
       role: 'Popular Influencer',
-      content: 'kdsjfkl jlslfjlfl sdf kjflflfjs fs lfj lj  fjfsdjflsjfslfj ljf jf lfj sldjfldsj fdls fjlf mfjsldfjljfldjc df f f dsfd ds ',
+      content: "We are thrilled with the results we've achieved thanks to Advert Monks. Our masterclass now reaches a wider audience and receives daily inquiries. Kudos to Ankush and his exceptional team for their outstanding work!",
     },
     {
       id: 2,
       image: '/about.webp',
-      name: 'John Doe',
+      name: 'Sarika Shrivastava',
       role: 'Popular Influencer',
-      content: 'kdsjfkl jlslfjlfl sdf kjflflfjs fs lfj lj  fjfsdjflsjfslfj ljf jf lfj sldjfldsj fdls fjlf mfjsldfjljfldjc df f f dsfd ds ',
+      content: "Advert Monks stands out as the best SMM agency I've encountered. Their defining strength lies in their unparalleled commitment to delivering results with remarkable speed. Every client, including myself, yearns for these qualities, and Advert Monks exceeds expectations. Their dedication to swift, effective outcomes sets them apart in the industry.",
     },
     {
       id: 3,

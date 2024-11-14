@@ -129,10 +129,7 @@ const Footer = () => {
               <Image src="/admonk.png" alt="Logo" width="130" height="80" />
             </div>
             <p className="text-gray-800 max-w-3xl mx-auto leading-relaxed">
-              We Indians love stuff customised for us. So whether it&apos;s
-              sending a parcel to your Chandigarh waali mausi, or booking that
-              Goa trip, Hanumax helps you plan your travel. Ready to turn it
-              into a reality? Let&apos;s look at our services below!
+            Your one-stop shop for an organic digital presence
             </p>
           </div>
 
@@ -140,23 +137,18 @@ const Footer = () => {
           <div className="flex justify-center">
             <ul className="mt-4 flex gap-6 justify-center md:justify-normal mb-4 md:mb-0">
               <li>
-                <Link href="https://www.facebook.com/profile.php?id=61550268785044">
+                <Link href="https://www.facebook.com/advertmonks.in">
                   <FaFacebook size={23} />
                 </Link>
               </li>
               <li>
-                <Link href="https://www.instagram.com/mcyberacademy/">
+                <Link href="https://www.instagram.com/advertmonks.in/">
                   <FaInstagram size={23} />
                 </Link>
               </li>
               <li>
-                <Link href="https://www.linkedin.com/company/mcyberacademy/">
+                <Link href="https://www.linkedin.com/company/advertmonks/">
                   <FaLinkedin size={23} />
-                </Link>
-              </li>
-              <li>
-                <Link href="https://www.youtube.com/channel/UCYgQk1T9VR_P78oNbq5J_jg">
-                  <FaYoutube size={23} />
                 </Link>
               </li>
             </ul>

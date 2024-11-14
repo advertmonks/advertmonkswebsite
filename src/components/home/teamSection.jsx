@@ -4,18 +4,18 @@ import React from 'react';
 const TeamSection = () => {
   const teamMembers = [
     {
-      name: 'David Daily',
-      role: 'Head of Production',
+      name: 'Ankush Shrivastava',
+      role: 'Co-Founder',
       image: '/ankush.png',
     },
     {
-      name: 'John Stewart',
-      role: 'Creative Director',
+      name: 'Sagar Mishra',
+      role: 'Co-Founder',
       image: '/pixelcut-export.png',
     },
     {
-      name: 'Taylor Johnson',
-      role: 'Head of Client Services',
+      name: 'Vishal Prajapati',
+      role: 'Co-Founder',
       image: '/Untitled design (3).png',
     },
   ];

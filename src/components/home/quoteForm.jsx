@@ -17,10 +17,13 @@ export default function QuoteForm() {
         {/* Left Section */}
         <div className="w-full md:w-1/2">
           <h2 className="text-white text-xl md:text-2xl font-semibold mb-2 md:mb-4 text-left">
-            Get a free quote today
+          Ready to Leave Your Mark?
           </h2>
           <p className="text-purple-100 mb-4 md:mb-8 text-left text-sm md:text-base">
-            Nam sapien feugiat id ipsum quam massa. Convallis est morbi semper posuere arcu diam facilisi aliquam sit. Sit tincidunt turpis.
+          Drop us an email and let&apos;s start establishing your presence today!
+          <br/>
+          Still got some doubts? Drop your email and let us take care of the rest!
+
           </p>
         </div>
         

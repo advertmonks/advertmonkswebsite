@@ -13,11 +13,11 @@ export default function Home() {
    <section>
    <InfluencerSection/>
    </section>
-   <section>
-   <ReviewSection/>
-   </section>
-   <section  className="pt-16">
+   <section className="pt-16">
    <WhyNubiSection />
+   </section>
+   <section  >
+   <ReviewSection/>
    </section>
    <section>
    <TeamSection/>
