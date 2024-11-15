@@ -21,7 +21,7 @@ const TeamSection = () => {
   ];
 
   return (
-    <div id='team' className="bg-white py-16 px-5 md:px-20 ">
+    <div id="team" className="bg-white py-16 px-5 md:px-20">
       <div className="text-center">
         <h4 className="text-purple-600 text-3xl font-semibold mb-2">The Team</h4>
         <h2 className="text-4xl font-bold mb-10">
@@ -34,9 +34,9 @@ const TeamSection = () => {
             <Image
               src={member.image}
               alt={member.name}
-              width={50}
-              height={50}
-              className="w-24 h-24 rounded-full mx-auto mb-4"
+              width={96}
+              height={96}
+              className="rounded-full mx-auto mb-4"
             />
             <h3 className="text-xl font-bold">{member.name}</h3>
             <p className="text-gray-600">{member.role}</p>
