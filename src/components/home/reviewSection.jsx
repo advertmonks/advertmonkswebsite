@@ -32,6 +32,13 @@ const ReviewSection = () => {
       role: 'Owner - Maharana cab',
       content: "Excellent Service, the team was very cooperative and polite. I like work nature ! I recommend to work with advert Monks",
     },
+    {
+      id: 5,
+      image: '/about.webp',
+      name: 'Barkha paarcha ',
+      role: 'Content creator',
+      content: "Advert Monks has been amazing in managing my social media they've helped boost my engagement significantly, Working with them has been a seamless and enjoyable experience. I highly recommend Advert Monks to anyone looking to elevate their social media game ..",
+    },
     // Add more reviewers here
   ];
 
