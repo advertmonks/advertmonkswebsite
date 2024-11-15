@@ -21,16 +21,16 @@ const ReviewSection = () => {
     {
       id: 3,
       image: '/about.webp',
-      name: 'John Doe',
-      role: 'Popular Influencer',
-      content: 'kdsjfkl jlslfjlfl sdf kjflflfjs fs lfj lj  fjfsdjflsjfslfj ljf jf lfj sldjfldsj fdls fjlf mfjsldfjljfldjc df f f dsfd ds ',
+      name: 'Rohan Mayekar',
+      role: 'Owner - Storybags Travel Solutions',
+      content: "I've been working with ADVERT MONKS for over a year now, and they've been handling Instagram posts for my business. The journey hasn't been without challenges—we faced some issues along the way—but I truly appreciate their commitment to resolving them and finding solutions.Their creativity, consistency, and ability to adapt to my requirements have been impressive. They're open to feedback and always strive to deliver better results, which is why I continue to work with them.If you're looking for a digital marketing agency that values long-term partnerships and is willing to grow with you, I'd recommend ADVERT MONKS.",
     },
     {
       id: 4,
       image: '/about.webp',
-      name: 'John Doe',
-      role: 'Popular Influencer',
-      content: 'kdsjfkl jlslfjlfl sdf kjflflfjs fs lfj lj  fjfsdjflsjfslfj ljf jf lfj sldjfldsj fdls fjlf mfjsldfjljfldjc df f f dsfd ds ',
+      name: 'Jai Moolchandani',
+      role: 'Owner - Maharana cab',
+      content: "Excellent Service, the team was very cooperative and polite. I like work nature ! I recommend to work with advert Monks",
     },
     // Add more reviewers here
   ];
