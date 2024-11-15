@@ -37,7 +37,7 @@ export default function QuoteForm() {
             required 
             className="w-full sm:w-auto px-4 py-2 rounded-lg h-11 border-none outline-none focus:ring-2 focus:ring-purple-300"
           />
-          <Link href="/about#contactform"> 
+          <Link href="/about#contactForm"> 
             <button 
               type="submit" 
               className="w-full sm:w-auto px-6 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition duration-300"

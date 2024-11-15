@@ -42,7 +42,7 @@ const HeroSection = () => {
               required
             />
           </div>
-          <Link href="/about#contactform">
+          <Link href="/about#contactForm">
             <button className="bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-800 transition duration-300 w-full sm:w-auto">
               Get a proposal
             </button>

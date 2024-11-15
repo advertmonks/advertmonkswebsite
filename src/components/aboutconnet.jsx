@@ -23,7 +23,7 @@ const ContactPage = () => {
     }));
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between bg-purple-500 p-8 rounded-lg shadow-lg">
+    <div id="contactForm" className="flex flex-col md:flex-row items-center justify-between bg-purple-500 px-16 py-24 rounded-lg shadow-lg ">
       {/* Left Side - Text Content */}
       <div className="text-white md:w-1/2 p-6">
         <h1 className="text-3xl font-bold mb-4">Ready to Leave Your Mark?</h1>
