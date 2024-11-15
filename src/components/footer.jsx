@@ -156,7 +156,7 @@ const Footer = () => {
         </div>
         <div className="py-4 flex justify-center mt-3 bg-gray-100">
           <p className="text-sm">
-          © Copyright <span className="font-normal text-purple-600"> &quot;ADVERTMONKS&quot; </span> all rights reserved. Designed by <Link href='https://www.ossconsulting.in/' className="font-normal text-blue-700">OSS Consulting</Link> 
+          © Copyright <span className="font-normal text-purple-600"> &quot;ADVERTMONKS&quot; </span> all rights reserved.
           </p>
         </div>
       </footer>
