@@ -24,7 +24,7 @@ const WhyNubiSection = () => {
             We Understand What Drives You
           </h2>
           <p className="text-slate-100 text-center md:text-left  opacity-70 mb-6">
-          With so many moving parts in a business, marketing may not be on top of your list. But a good marketing strategy is the cherry atop the cake. That's where Advert Monks gives you
+          With so many moving parts in a business, marketing may not be on top of your list. But a good marketing strategy is the cherry atop the cake. That&apos;s where Advert Monks gives you
           </p>
           <ul className="space-y-3">
             <li className="flex items-center text-lg text-white">

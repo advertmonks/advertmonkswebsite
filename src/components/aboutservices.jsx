@@ -12,7 +12,7 @@ const ServiceCard = ({ icon, title, description }) => (
 const ServicesSection = () => {
   return (
     <div className="container mx-auto px-4 py-16">
-      <div className="text-purple-600 mb-2">Services</div>
+      <div className="text-purple-600 mb-4">Services</div>
       
       <div className="flex flex-wrap items-center mb-12">
         <div className="w-full lg:w-2/3 pr-0 lg:pr-8 mb-8 lg:mb-0">
@@ -20,19 +20,19 @@ const ServicesSection = () => {
           What We Offer
           </h2>
           <p className="text-gray-600 mb-6">
-          Our team understands and listens to your needs. Whatever your business goals or target industry, we have something for everyone. So whether you need the full suite or just a specific service, browse our list, pick what you like and let's get building your digital presence.
+          Our team understands and listens to your needs. Whatever your business goals or target industry, we have something for everyone. So whether you need the full suite or just a specific service, browse our list, pick what you like and let&apos;s get building your digital presence.
           </p>
-          <button className="bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-800 transition duration-300">
+          {/* <button className="bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-800 transition duration-300">
             Learn More
-          </button>
+          </button> */}
         </div>
-        <div className="w-full lg:w-1/3">
+        <div className="w-full hidden lg:w-1/3 md:flex self-center">
           <Image
             src="/callus.webp"
             alt="Avatar"
             width={200}
-            height={200}
-            className="ml-auto"
+            height={180}
+            className="ml-auto "
           />
         </div>
       </div>

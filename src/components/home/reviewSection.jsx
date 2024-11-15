@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const ReviewSection = () => {
@@ -50,7 +51,7 @@ const ReviewSection = () => {
                 alt={review.name}
                 width={80}
                 height={80}
-                className="rounded-full w-24 h-24 mx-auto md:mx-0"
+                className="rounded-full w-24 h-24 mx-auto md:mx-0 flex self-center"
               />
               <div className="text-center md:text-left">
                 <p className="text-purple-600 font-semibold mb-2">
@@ -72,9 +73,11 @@ const ReviewSection = () => {
         <p className="text-center md:text-left text-gray-500 max-w-xs md:max-w-md mb-4 md:mb-8">
           Our team makes sure there&apos;s a little something for every business. Whether it&apos;s SEO and content writing services for an organic presence, advertising your business on social media, or creating ads best optimized for social media, Advert Monks makes sure you get what you want.
         </p>
+        <Link href='/about#services'>
         <button className="bg-purple-600 text-white px-6 py-2 rounded-lg">
           Discover More
         </button>
+        </Link>
       </div>
     </div>
   );

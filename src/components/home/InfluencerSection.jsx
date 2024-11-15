@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 import AvatarCircles from "@/components/magicui/avatar-circles";
+import Link from "next/link";
 
 const InfluencerSection = () => {
   const avatarUrls = [
@@ -26,7 +27,9 @@ const InfluencerSection = () => {
               How do we do it? Let&apos;s walk through our list of services
               below!
             </p>
+            <Link href='/about#services'>
             <Button>Discover More</Button>
+            </Link>
           </div>
 
           {/* Image Section */}

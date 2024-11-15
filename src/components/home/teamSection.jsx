@@ -6,7 +6,7 @@ const TeamSection = () => {
     {
       name: 'Ankush Shrivastava',
       role: 'Co-Founder',
-      image: '/ankush.png',
+      image: '/an.png',
     },
     {
       name: 'Sagar Mishra',
@@ -23,8 +23,8 @@ const TeamSection = () => {
   return (
     <div id='team' className="bg-white py-16 px-5 md:px-20 ">
       <div className="text-center">
-        <h4 className="text-purple-600 text-lg font-semibold mb-2">The Team</h4>
-        <h2 className="text-4xl font-bold mb-8">
+        <h4 className="text-purple-600 text-3xl font-semibold mb-2">The Team</h4>
+        <h2 className="text-4xl font-bold mb-10">
           Meet the brilliant minds behind our successful campaigns
         </h2>
       </div>

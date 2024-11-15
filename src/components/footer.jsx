@@ -121,10 +121,10 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-gray-50 py-8 px-4">
+      <footer className="bg-gray-50 pt-6 px-4">
         <div className="max-w-6xl mx-auto">
           {/* Logo and Mission Statement */}
-          <div className="text-center mb-12">
+          <div className="text-center mb-4">
             <div className="mb-6 flex justify-center">
               <Image src="/admonk.png" alt="Logo" width="130" height="80" />
             </div>
@@ -134,7 +134,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Information Grid */}
-          <div className="flex justify-center">
+          <div className="flex justify-center mb-8">
             <ul className="mt-4 flex gap-6 justify-center md:justify-normal mb-4 md:mb-0">
               <li>
                 <Link href="https://www.facebook.com/advertmonks.in">
@@ -153,6 +153,11 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="py-4 flex justify-center mt-3 bg-gray-100">
+          <p className="text-sm">
+          © Copyright <span className="font-normal text-purple-600"> &quot;ADVERTMONKS&quot; </span> all rights reserved. Designed by <Link href='https://www.ossconsulting.in/' className="font-normal text-blue-700">OSS Consulting</Link> 
+          </p>
         </div>
       </footer>
     </>
