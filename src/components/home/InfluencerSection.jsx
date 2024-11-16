@@ -51,14 +51,14 @@ const InfluencerSection = () => {
                 height={250}
                 priority
               />
-              <p className="absolute bottom-4 -left-8 bg-white rounded-full px-2 md:px-3 py-1 text-xs md:text-sm">
+              <p className="absolute bottom-4  -left-8 bg-white rounded-full px-2 md:px-4 py-1 text-xs md:text-sm">
                 4126+ <br /> <span className="text-xs">Popular Influencer</span>
               </p>
             </div>
             <div className="flex-col relative">
               <Image
                 className="rounded-tr-3xl mb-4 bg-gradient-to-r from-purple-500 to-purple-600"
-                src="/Av3.png"
+                src="/av3.png"
                 alt="Influencer 3"
                 width={250}
                 height={250}
