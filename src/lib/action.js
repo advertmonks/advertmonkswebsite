@@ -23,7 +23,7 @@ export const contactform = async (formdata) => {
 
   const mailOptions = {
     from: email,
-    to: "adityakher303@gmail.com",
+    to:`advertmonks.india@gmail.com, ${email}`,
     subject: "Hello",
     text: "hello",
     html: Query({ name, email, phone }),
