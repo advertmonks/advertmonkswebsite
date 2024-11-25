@@ -6,7 +6,7 @@ import { useEmailContext } from "@/context/EmailContext";
 
 const ContactPage = () => {
   let { isEmpty } = useEmailContext();
-  const initValues = { name: "", email: isEmpty, phone: "" };
+  const initValues = { name: "", email: isEmpty, phone: "" ,company:'',message:''};
 
   const initState = { isLoading: false, error: "", values: initValues };
 
@@ -86,11 +86,39 @@ const ContactPage = () => {
               onChange={handleChange}
             />
           </div>
+          <div>
+            <label htmlFor="website-url" className="sr-only">
+              Website URL
+            </label>
+            <input
+              className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
+              placeholder="Company Name"
+              required
+              type="tel"
+              name="phone"
+              value={values.company}
+              onChange={handleChange}
+            />
+          </div>
+          <div>
+            <label htmlFor="website-url" className="sr-only">
+              Website URL
+            </label>
+            <input
+              className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
+              placeholder="Problem you are facing"
+              required
+              type="tel"
+              name="phone"
+              value={values.message}
+              onChange={handleChange}
+            />
+          </div>
 
           <div>
             <button
               isLoading={isLoading}
-              disabled={!values.name || !values.email || !values.phone}
+              disabled={!values.name || !values.email || !values.phone || !values.company || !values.message}
               className="w-full rounded-lg bg-gray-800 px-5 py-3 text-sm font-medium text-white shadow-md hover:bg-gray-900"
             >
               Let&apos;s Connect!

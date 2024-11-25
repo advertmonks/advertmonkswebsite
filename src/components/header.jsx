@@ -50,7 +50,7 @@ export default function Header() {
           <Link href="/#team" onClick={() => setIsOpen(false)}>
             Team
           </Link>
-          <Link href="/#contact" onClick={() => setIsOpen(false)}>
+          <Link href="/about#contactForm" onClick={() => setIsOpen(false)}>
             Contact
           </Link>
         </div>

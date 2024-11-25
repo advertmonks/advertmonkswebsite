@@ -8,14 +8,14 @@ const ReviewSection = () => {
       id: 1,
       image: '/about.webp',
       name: 'Path2Parenting',
-      role: 'Popular Influencer',
+      role: 'Parenting Coach',
       content: "We are thrilled with the results we've achieved thanks to Advert Monks. Our masterclass now reaches a wider audience and receives daily inquiries. Kudos to Ankush and his exceptional team for their outstanding work!",
     },
     {
       id: 2,
       image: '/about.webp',
-      name: 'Sarika Shrivastava',
-      role: 'Popular Influencer',
+      name: 'Sarika',
+      role: ' Cloud Kitchen (Owner)',
       content: "Advert Monks stands out as the best SMM agency I've encountered. Their defining strength lies in their unparalleled commitment to delivering results with remarkable speed. Every client, including myself, yearns for these qualities, and Advert Monks exceeds expectations. Their dedication to swift, effective outcomes sets them apart in the industry.",
     },
     {
@@ -36,7 +36,7 @@ const ReviewSection = () => {
       id: 5,
       image: '/about.webp',
       name: 'Barkha paarcha ',
-      role: 'Content creator',
+      role: 'Yoga Coach',
       content: "Advert Monks has been amazing in managing my social media they've helped boost my engagement significantly, Working with them has been a seamless and enjoyable experience. I highly recommend Advert Monks to anyone looking to elevate their social media game ..",
     },
     // Add more reviewers here

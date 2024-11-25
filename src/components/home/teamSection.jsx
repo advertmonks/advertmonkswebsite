@@ -6,7 +6,7 @@ const TeamSection = () => {
     {
       name: 'Ankush Shrivastava',
       role: 'Co-Founder',
-      image: '/an.png',
+      image: '/Untitled design (3).png',
     },
     {
       name: 'Sagar Mishra',
@@ -16,7 +16,7 @@ const TeamSection = () => {
     {
       name: 'Vishal Prajapati',
       role: 'Co-Founder',
-      image: '/Untitled design (3).png',
+      image: '/an.png',
     },
   ];
 

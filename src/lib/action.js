@@ -7,7 +7,7 @@ import { revalidatePath } from "next/cache";
 
 
 export const contactform = async (formdata) => {
-  const { name, email, phone, message } = Object.fromEntries(formdata);
+  const { name, email, phone,company, message } = Object.fromEntries(formdata);
   console.log({name, email, phone, message });
 
   const transporter = nodemailer.createTransport({
@@ -24,9 +24,9 @@ export const contactform = async (formdata) => {
   const mailOptions = {
     from: email,
     to:`advertmonks.india@gmail.com, ${email}, team@ossconsulting.in`,
-    subject: "Hello",
+    subject: "New query registered",
     text: "hello",
-    html: Query({ name, email, phone }),
+    html: Query({ name, email, phone,company, message  }),
   };
 
   try {

@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const ServiceCard = ({ icon, title, description }) => (
   <div className="bg-gray-100 p-6 rounded-lg flex flex-col items-start">
@@ -34,6 +35,7 @@ const ServicesSection = () => {
         </div>
       </div>
 
+      <Link href='/about#contactForm'>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <ServiceCard
           icon="/reputation.png"
@@ -66,6 +68,7 @@ const ServicesSection = () => {
           description="If a picture can speak a thousand words, imagine what a video can do. Understanding and using this, our team helps you create online videos for your business that attracts customers to make them stay."
         />
       </div>
+        </Link>
     </div>
   );
 };
