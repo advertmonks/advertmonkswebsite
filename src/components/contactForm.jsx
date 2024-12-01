@@ -20,7 +20,7 @@ import { useEmailContext } from "@/context/EmailContext";
   export default function ContactForm() {
     
     let {isEmpty} = useEmailContext();
-    const initValues = { name: "", email: isEmpty, phone: "", message: "" };
+    const initValues = { name: "", email: isEmpty, phone: "Your Number", message: "" };
   
     const initState = { isLoading: false, error: "", values: initValues };
 
@@ -70,6 +70,7 @@ import { useEmailContext } from "@/context/EmailContext";
             value={values.email}
             onChange={handleChange}
             
+            
           />
           <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>
@@ -85,7 +86,6 @@ import { useEmailContext } from "@/context/EmailContext";
             errorBorderColor="red.300"
             value={values.phone}
             onChange={handleChange}
-            
           />
           <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>

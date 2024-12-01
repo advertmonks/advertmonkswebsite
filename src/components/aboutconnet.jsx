@@ -78,7 +78,7 @@ const ContactPage = () => {
             </label>
             <input
               className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
-              placeholder="your Number"
+              placeholder="Your Number"
               required
               type="tel"
               name="phone"
@@ -95,12 +95,12 @@ const ContactPage = () => {
               placeholder="Company Name"
               required
               type="tel"
-              name="phone"
+              name="company"
               value={values.company}
               onChange={handleChange}
             />
           </div>
-          <div>
+          {/* <div>
             <label htmlFor="website-url" className="sr-only">
               Website URL
             </label>
@@ -113,7 +113,7 @@ const ContactPage = () => {
               value={values.message}
               onChange={handleChange}
             />
-          </div>
+          </div> */}
 
           <div>
             <button

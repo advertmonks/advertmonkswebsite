@@ -1,13 +1,16 @@
 "use client"
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { useEmailContext } from '@/context/EmailContext';
+import { contactform } from "@/lib/action";
 
 const HeroSection = () => {
   const { isEmpty, setIsEmpty } = useEmailContext();
+  const  [filled , setFilled]  = useState(false);
 
   const handleChange = ({ target }) => {
     setIsEmpty(target.value);
+    setFilled(true);
   };
 
   return (
@@ -30,24 +33,29 @@ const HeroSection = () => {
           pick what you like and let&apos;s get building your digital presence.
         </p>
 
+        <form  action={contactform}>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
           <div className="bg-white rounded-md flex items-center px-3 py-2 w-full sm:w-auto">
             <span className="text-gray-400 mr-2">🌐</span>
             <input
               type="text"
-              placeholder="yourwebsite.com/"
+              name="email"
+              placeholder="youremail@gmail.com"
               className="bg-transparent outline-none flex-grow"
               value={isEmpty}
               onChange={handleChange}
               required
             />
+           
           </div>
-          <Link href="/about#contactForm">
-            <button className="bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-800 transition duration-300 w-full sm:w-auto">
-              Get a proposal
+          
+          
+            <button className={`${filled ? '' : 'disabled'} bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-800 transition duration-300 w-full sm:w-auto`}>
+              Join our NewsLetter
             </button>
-          </Link>
+         
         </div>
+          </form>
       </div>
     </div>
   );
