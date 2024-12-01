@@ -41,8 +41,8 @@ const ContactPage = () => {
 
         <form action={contactform}  className="space-y-4">
           <div>
-            <label htmlFor="company-name" className="sr-only">
-              Company Name
+            <label htmlFor="company-name" className="text-sm pl-2">
+              Name <span className="text-destructive">*</span>
             </label>
             <input
               type="text"
@@ -57,8 +57,8 @@ const ContactPage = () => {
           </div>
 
           <div>
-            <label htmlFor="email" className="sr-only">
-              Email
+            <label htmlFor="email" className="text-sm pl-2">
+              Email <span className="text-destructive">*</span>
             </label>
             <input
               type="email"
@@ -73,8 +73,8 @@ const ContactPage = () => {
           </div>
 
           <div>
-            <label htmlFor="website-url" className="sr-only">
-              Website URL
+            <label htmlFor="website-url" className="text-sm pl-2">
+              Phone Number <span className="text-destructive">*</span>
             </label>
             <input
               className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
@@ -87,8 +87,8 @@ const ContactPage = () => {
             />
           </div>
           <div>
-            <label htmlFor="website-url" className="sr-only">
-              Website URL
+            <label htmlFor="website-url" className="text-sm pl-2">
+              Company Name <span className="text-destructive">*</span>
             </label>
             <input
               className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
@@ -100,25 +100,25 @@ const ContactPage = () => {
               onChange={handleChange}
             />
           </div>
-          {/* <div>
-            <label htmlFor="website-url" className="sr-only">
-              Website URL
+          <div>
+            <label htmlFor="website-url" className="text-sm pl-2">
+              How can we help you?
             </label>
             <input
               className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
-              placeholder="Problem you are facing"
+              placeholder="Is there anything in particular we can help you with ?"
               required
               type="tel"
-              name="phone"
+              name="message"
               value={values.message}
               onChange={handleChange}
             />
-          </div> */}
+          </div>
 
           <div>
             <button
               isLoading={isLoading}
-              disabled={!values.name || !values.email || !values.phone || !values.company || !values.message}
+              disabled={!values.name || !values.email || !values.phone || !values.company }
               className="w-full rounded-lg bg-gray-800 px-5 py-3 text-sm font-medium text-white shadow-md hover:bg-gray-900"
             >
               Let&apos;s Connect!
