@@ -8,7 +8,7 @@ import { revalidatePath } from "next/cache";
 
 export const contactform = async (formdata) => {
   const { name, email, phone,company, message } = Object.fromEntries(formdata);
-  console.log({name, email, phone, message });
+  // console.log({name, email, phone, message });
 
   const transporter = nodemailer.createTransport({
     service: "gmail",

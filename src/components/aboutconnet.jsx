@@ -47,7 +47,7 @@ const ContactPage = () => {
             <input
               type="text"
               className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
-              placeholder="Your Name"
+              // placeholder="Your Name"
               required
               name="name"
               errorBorderColor="red.300"
@@ -64,7 +64,7 @@ const ContactPage = () => {
               type="email"
               id="email"
               className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
-              placeholder="youremail@gmail.com"
+              // placeholder="youremail@gmail.com"
               required
               name="email"
               value={values.email}
@@ -78,7 +78,7 @@ const ContactPage = () => {
             </label>
             <input
               className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
-              placeholder="Your Number"
+              // placeholder="Your Number"
               required
               type="tel"
               name="phone"
@@ -92,7 +92,7 @@ const ContactPage = () => {
             </label>
             <input
               className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
-              placeholder="Company Name"
+              // placeholder="Company Name"
               required
               type="tel"
               name="company"
@@ -102,11 +102,11 @@ const ContactPage = () => {
           </div>
           <div>
             <label htmlFor="website-url" className="text-sm pl-2">
-              How can we help you?
+            Is there anything in particular we can help you with ?
             </label>
             <input
               className="w-full rounded-lg border-gray-300 p-4 text-sm shadow-sm"
-              placeholder="Is there anything in particular we can help you with ?"
+              // placeholder="Is there anything in particular we can help you with ?"
               required
               type="tel"
               name="message"

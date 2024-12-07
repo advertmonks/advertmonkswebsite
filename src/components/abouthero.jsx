@@ -36,11 +36,11 @@ const HeroSection = () => {
         <form  action={contactform}>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
           <div className="bg-white rounded-md flex items-center px-3 py-2 w-full sm:w-auto">
-            <span className="text-gray-400 mr-2">🌐</span>
+            {/* <span className="text-gray-400 mr-2">📨</span> */}
             <input
               type="text"
               name="email"
-              placeholder="youremail@gmail.com"
+              placeholder="email@gmail.com"
               className="bg-transparent outline-none flex-grow"
               value={isEmpty}
               onChange={handleChange}
